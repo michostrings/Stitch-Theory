@@ -122,7 +122,6 @@ button img {
   display: flex;
   margin-top: 30px;
   align-items: center;
-  justify-content: center;
   justify-content: space-around;
 }
 .abt {
@@ -634,7 +633,7 @@ footer h3 {
 
 @media (max-width: 816px) {
   header {
-    height: 50vw;
+    height: 70vw;
   }
   .hero-section {
     margin-top: 120px;
@@ -745,7 +744,7 @@ footer h3 {
 
 @media (max-width: 682px) {
   header {
-    height: 60vw;
+    height: 70vh;
   }
   .hero-section {
     margin-top: 120px;
@@ -820,6 +819,10 @@ footer h3 {
   .hero-section {
     margin-top: 170px;
     margin-left: 70px;
+  }
+  nav h1 {
+    display: flex;
+    font-size: 25px;
   }
 
   .hero-section h2 {
@@ -989,7 +992,7 @@ footer h3 {
     width: 250px;
   }
 }
-@media (max-width: 374px) {
+@media (max-width: 407px) {
   header {
     width: auto;
     height: 60vh;
@@ -999,9 +1002,9 @@ footer h3 {
     margin-left: 30px;
   }
   .hero-section p {
-    font-size: 8px;
+    font-size: 15px;
     margin-left: 8px;
-    line-height: 8px;
+    line-height: 15px;
   }
   .hero-section h2 {
     font-size: 25px;
